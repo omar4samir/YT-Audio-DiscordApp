@@ -1,12 +1,19 @@
-#Script file to pull from ssm parameter-store:
+2 files needs to be added in your EC2 instance that runs the python script.
+----------------------------------------------------------------
+
+1-Script file to pull from ssm parameter-store:
 
 aws ssm get-parameter --name "/Discord/Cookie" --query "Parameter.Value" --output text --region eu-north-1 --with-decryption > /home/ssm-user/discord_bot/cookies
 
 
 
 
-#cronjob: (every 5 mins)
+2-cronjob: (every 5 mins)
 
 */5 * * * * /opt/scripts/update_parameter_file.sh
+
+
+
+Finally, make sure you add you cookies in /Discord/Cookie in AWS SSM
 
 
