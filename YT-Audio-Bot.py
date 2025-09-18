@@ -42,7 +42,7 @@ async def play(ctx, url):
         ydl_opts = {
             'format': 'bestaudio/best', # Prioritizes audio-only
             'extract_flat': True,  # Extracts only metadata without downloading (faster)
-            'cookiefile': '/home/ssm-user/discord_bot/yt_cookies.txt'
+            'cookiefile': '/home/ssm-user/discord_bot/yt_cookies.txt' #path to where you store cookies
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl: # Ensures proper resource cleanup
