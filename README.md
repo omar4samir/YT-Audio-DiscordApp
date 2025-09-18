@@ -3,7 +3,7 @@ Discord YouTube Audio Streaming Bot
 -----------------------------------
 
 Overview:
-A production-ready Discord bot engineered for streaming YouTube audio directly to voice channels without local file downloads. Built with Python and leveraging AWS cloud infrastructure for enterprise-grade reliability and security. The system utilizes yt-dlp with YouTube cookies for robust content access and AWS Systems Manager for secure token management.
+A production-ready Discord bot that streams YouTube audio directly to user's voice channels in Discord servers without local file downloads. Built with Python, Discord.py, yt-dlp, Terraform and hosted on AWS.
 
 Features:
 - Direct YouTube Streaming: Streams audio directly from YouTube URLs
