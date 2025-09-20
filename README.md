@@ -64,15 +64,22 @@ Discord Apps permissions in server:
 - Use Voice Activity
 - Send Messages
 
-Make sure to add Token in SSM as /Discord/Token.
- 
-For cookies managment, check pull-SSM.txt
+
 
 How to Use
 ==========
 
-Basic Commands:
---------------
+-You need to run the python script "YT-Audio-bot.py" on your EC2 instance, a long with few notable things mentioned in "pull-SSM.txt"
+
+-Modify the paths, according to your needs, and as per right directions in your EC2 instance 
+
+-Make sure to add Token in SSM as /Discord/Token.
+ 
+-For cookies managment, please check pull-SSM.txt
+
+
+Basic Commands when running the bot on discord:
+---------------------------------------------
 !play <url>	-------> Stream YouTube audio
 
 !leave	-----------> Disconnect from voice	
